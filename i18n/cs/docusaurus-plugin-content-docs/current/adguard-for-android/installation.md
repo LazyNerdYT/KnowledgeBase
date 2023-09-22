@@ -19,7 +19,7 @@ Tento článek popisuje AdGuard pro Android, multifunkční blokátor reklam, kt
 
 ## Instalace
 
-Většina aplikací pro Android je distribuována prostřednictvím služby Google Play. AdGuard zde však není prezentován, protože společnost Google zakazuje distribuci blokátorů reklam na úrovni sítě prostřednictvím služby Google Play, tj. aplikace, které blokují reklamy v jiných aplikacích. You will find more information about Google restrictive policy [in our blog](https://adguard.com/en/blog/adguard-google-play-removal.html).
+Většina aplikací pro Android je distribuována prostřednictvím služby Google Play. AdGuard zde však není prezentován, protože společnost Google zakazuje distribuci blokátorů reklam na úrovni sítě prostřednictvím služby Google Play, tj. aplikace, které blokují reklamy v jiných aplikacích. You will find more information about Google restrictive policy [in our blog](https://adguard.com/blog/adguard-google-play-removal.html).
 
 Proto můžete AdGuard pro Android nainstalovat pouze ručně. Chcete-li aplikaci používat v mobilním zařízení, musíte provést následující kroky.
 
@@ -29,7 +29,7 @@ Proto můžete AdGuard pro Android nainstalovat pouze ručně. Chcete-li aplikac
     - spusťte prohlížeč a zadejte následující URL: [https://adguard.com/apk](https://adguard.com/apk)
     - nebo naskenujte tento QR kód:
 
-    ![QR code *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/installation/qr/inst-qr-en.png)
+    ![QR code *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/installation/inst-qr-en-1.png)
 
 1. **Povolte instalaci aplikací z neznámých zdrojů**. Po dokončení stahování souboru klepněte na *Otevřít* v oznámení.
 
@@ -38,8 +38,6 @@ Proto můžete AdGuard pro Android nainstalovat pouze ručně. Chcete-li aplikac
     Zobrazí se vyskakovací okno. Klepněte na *Nastavení*, přejděte na *Instalace neznámých aplikací* a udělte oprávnění pro prohlížeč, který jste použili ke stažení souboru.
 
     ![Installing apps from unknown sources *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/installation/inst_3.png)
-
-    Tato příručka je pro systém Android 8+. Pokud máte starší verzi operačního systému, přejděte před stažením souboru APK do *Nastavení* a vyberte možnost *Další nastavení* v sekci *Systém a zařízení*. Povolte *Neznámé zdroje* a klepněte na *OK* v okně se systémovým varováním.
 
 1. **Nainstalujte aplikaci**. Jakmile prohlížeč získá potřebná oprávnění, systém se vás zeptá, zda chcete aplikaci AdGuard nainstalovat. Klepněte na *Instalovat*.
 
@@ -63,14 +61,14 @@ Proto můžete AdGuard pro Android nainstalovat pouze ručně. Chcete-li aplikac
 
     ![Enable HTTPS filtering on Android 7-9. Step 2 *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/installation/cert_2.jpg)
 
-    Pokud máte v zařízení Android 10+, zobrazí se po vytvoření lokální VPN hlavní obrazovka aplikace s lištou ve spodní části: klepněte na *Povolit* a postupujte podle pokynů na další obrazovce.
+    If you have Android 10+ on your device, then after creating a local VPN, you will see the main app screen with a snack bar at the bottom with a suggestion to enable HTTPS filtering: tap *Enable* and follow the instructions on the next screen or check [the article about certificate installation](solving-problems/manual-certificate.md) for more information.
 
     ![Enable HTTPS filtering *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/installation/fl_5.png)
 
 ## Odinstalování/přeinstalování AdGuardu
 
-Pokud potřebujete AdGuard v mobilním zařízení znovu nainstalovat, nejprve jej odstraňte otevřením **Nastavení** a výběrem **Aplikace** (Android 7) nebo **Aplikace a oznámení** (Android 8+). Vyhledejte **AdGuard** v seznamu nainstalovaných aplikací a stiskněte **Odinstalovat**.
+If you need to uninstall AdGuard on your mobile device, open *Settings* and choose *Apps* (Android 7) or *Apps & notifications* (Android 8+). Find AdGuard in the list of installed apps and press *Uninstall*.
 
 ![Reinstall AdGuard *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/installation/inst_4.png)
 
-Chcete-li aplikaci znovu nainstalovat, zopakujte úkony popsané v části Instalace.
+To reinstall AdGuard, just download the apk file again and follow the steps outlined in the Installation section. Uninstallation is not required beforehand.

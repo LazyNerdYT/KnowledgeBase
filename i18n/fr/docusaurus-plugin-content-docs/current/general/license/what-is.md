@@ -5,40 +5,53 @@ sidebar_position: 1
 
 ## Qu'est-ce qu'une licence AdGuard
 
-Une licence est l'autorisation d'utiliser le logiciel AdGuard, fournie conformément au contrat de licence utilisateur final. Les licences AdGuard existent sous forme de clefs de licence, de codes d'activation et de cartes de produit dans le [ compte d'utilisateur AdGuard](../../account/register).
+A license is a permission to use the AdGuard product, provided in accordance with the [End User License Agreement](https://adguard.com/eula.html). If bound to an email address, AdGuard licenses can be found in the user's [AdGuard account](https://my.adguard.com/).
 
-Certaines licences doivent être achetées (par exemple, la licence personnelle du Bloqueur AdGuard), certaines sont gratuites et limitées dans le temps (par exemple, les licences d'essai des applications AdGuard) ou ont une fonctionnalité limitée (par exemple, AdGuard pour iOS ou l'extension de navigateur AdGuard). Voici la liste de tous les types de licences du Bloqueur AdGuard.
+## What types of AdGuard licenses exist
 
-1. **Les licences d'essai** sont des licences gratuites à durée limitée avec toutes les fonctionnalités : AdGuard pour Windows — essai de 14 jours, AdGuard pour Mac — essai de 14 jours, AdGuard pour Android — essai de 7 jours.
-2. **Free licenses** are not time-limited, but have limited functionality: AdGuard Browser Extension, AdGuard Content Blocker, AdGuard for iOS.
-3. **Les abonnements** sont des licences payantes qui se renouvellent automatiquement chaque mois ou chaque année. Ils peuvent également être prolongés manuellement. Abonnement mensuel au Bloqueur AdGuard, Abonnement d'un an Bloqueur AdGuard.
-4. **Les licences achetées auprès des distributeurs** et **licences offertes** sont limitées dans le temps et ne peuvent pas être renouvelées automatiquement. Par contre, elles peuvent être prolongées manuellement : Licence mensuelle du Bloqueur AdGuard, Licence d'un an du Bloqueur AdGuard.
-5. **Les licences À vie** ne sont pas limitées dans le temps et disposent de toutes les fonctionnalités : Licence À vie du Bloqueur AdGuard, AdGuard Pro pour iOS.
+On the [purchase page](https://adguard.com/license.html), you can see the following types of licenses:
 
-## Combien d'appareils peuvent être ajoutés{#devices}
+- **1-year subscriptions** — these licenses are renewed automatically every year or can be extended manually
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
+- **Lifetime** — these licenses are not time-limited
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
 
-Les licences différentes peuvent être utilisées avec un nombre différent d'appareils :
+There are also licenses that the user can purchase from other sources or get for free:
 
-- Personnelle : jusqu’à trois appareils,
-- Familiale : jusqu’à neuf appareils,
-- AdGuard Pro pour iOS : un seul appareil.
+- **Trial licenses** are free time-limited licenses that allow you to test the full functionality of the product
+    - AdGuard for Windows — 14-day trial
+    - AdGuard for Mac — 14-day trial
+    - AdGuard for Android — 7-day trial
+- **Distributor licenses** and **gifted licenses** can be both time-limited and non-time limited. Licenses with an expiration date can only be renewed manually
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
+- **The AdGuard Pro for iOS license** is purchased and managed through the App Store and can only be used on iOS and iPadOS devices with the same Apple ID
 
-To use your license on a device, log in to your [AdGuard account](../../account/features) on it. To extend the device limit, you can [upgrade](../payment-options/#upgrade) your license.
+:::tip
 
-## Qu'est-ce qu'une clef de licence{#license-key}
+To extend the device limit, you can [upgrade](../payment-options/#upgrade) your license.
 
-Une clef de licence est une séquence unique de caractères qui représente une licence du Bloqueur AdGuard. It is automatically registered for the email you used for license purchase. With a license key, you can:
+:::
 
-- vous connecter à votre compte AdGuard dans certains produits (par exemple, AdGuard pour Windows),
-- [activer votre licence](../activation) dans un produit, si vous n'avez pas de compte AdGuard,
-- lier votre licence à votre compte AdGuard et la délier.
+## How to use the AdGuard license
 
-When unbinding a license, be sure you write the license key down beforehand or note in some other (safe) way. You'll need the key for re-binding your license or transferring it to another account.
+To use your license on a device, log in to your AdGuard app using the email address associated with the license. If the license hasn't been bound to your email address yet, you can do it in your [AdGuard account](https://my.adguard.com/). To do so, open the *Licenses* tab and click *Bind license*.
 
-## Comment récupérer une clef de licence
+Alternatively, you can enter your [license key](#license-key) in your AdGuard app.
 
-You can easily check which license keys belong to you in your [AdGuard Account](../../account/register).
+## License key
 
-The license key is bound to your account via the email address you used to purchase AdGuard.
+A license key is a unique string of characters that represents an AdGuard Ad Blocker license. It is automatically registered to the email you used to purchase the license, or is provided to you when you purchase an AdGuard license from a distributor. With a license key, you can:
 
-**Please note** that it is often not enough to just find out what your license key is. If it was already used on another computer, it’s necessary to unbind it from that computer through the AdGuard Account before using it again.
+- [Activate your license](../activation) in a product, if you don't have an AdGuard account
+- Bind your license to your AdGuard account and unbind it
+
+When you unbind a license, be sure to save the license key first. You'll need the key to rebind your license or transfer it to another account.
+
+### Comment récupérer une clef de licence
+
+If you don't remember the license key, check out your AdGuard account: all licenses bound to your email address are displayed there.
+
+If you've lost the license key purchased from a distributor, please reach out to us at support@adguard.com. Be ready to provide a receipt or other proof of purchase.

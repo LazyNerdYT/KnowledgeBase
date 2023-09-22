@@ -71,6 +71,13 @@ K dispozici jsou tři předkonfigurované úrovně ochrany. Zde jsou uvedeny fun
 
     e. *Automatické odstranění cookies třetích stran*. Toto nastavení omezuje životnost TTL cookie třetích stran na 180 minut
 
+    :::caution
+
+    This setting deletes all third-party cookies, including the information of your logins through social networks or other third-party services. You may have to periodically re-log in to some websites and face other cookie-related issues. To block only tracking cookies, use the *Standard* protection level.
+
+
+:::
+
     f. *Odstranit X-Client-Data hlavičku*
 
  3. **Maximální**
@@ -284,21 +291,21 @@ V sekci *Aktualizace aplikace a filtrů* můžete nakonfigurovat automatické ak
 
 #### Pokročilá nastavení
 
-*Automation* allows you to manage AdGuard via tasker apps.
+*Automatizace* vám umožňuje spravovat AdGuard prostřednictvím aplikací Tasker.
 
-*Watchdog* helps protect AdGuard from being disabled by the system ([read more about Android's battery save mode](/adguard-for-android/solving-problems/background-work/)). The value you enter will be the interval in seconds between watchdog checks.
+*Watchdog* pomáhá chránit AdGuard před ukončením systémem ([další informace o režimu úspory baterie v Androidu](/adguard-for-android/solving-problems/background-work/)). Zadaná hodnota bude interval v sekundách mezi kontrolami watchdog.
 
-*Logging level* defines what data about the app's operation should be logged. By default, the app collects the data about its events. The *Debug* level logs more events — enable it if asked by the AdGuard team to help them get a better understanding of the problem. [Read more about collecting and sending logs](/adguard-for-android/solving-problems/logcat/)
+*Úroveň záznamu* definuje, jaká data o provozu aplikace by měla být zaznamenána. Ve výchozím nastavení aplikace shromažďuje údaje o vlastních událostech. Úroveň *Ladění* zaznamenává více událostí – povolte ji, pokud o to tým AdGuardu požádá, abyste mu pomohli lépe porozumět problému. [Více informací o shromažďování a odesílání záznamů](/adguard-for-android/solving-problems/logcat/)
 
 ![Advanced *mobile_border](https://cdn.adtidy.org/blog/new/vshfnadvanced.png)
 
-The *Low-level settings* section is for expert users. [Read more about low-level settings](/adguard-for-android/solving-problems/low-level-settings/)
+Sekce *Nízkoúrovňová nastavení* je určena pro zkušené uživatele. [Více informací o nízkoúrovňových nastavení](/adguard-for-android/solving-problems/low-level-settings/)
 
 ![Low-level settings *mobile_border](https://cdn.adtidy.org/blog/new/n9ztplow_level.png)
 
 ### Filtrování
 
-This section allows you to manage HTTPS filtering settings, filters, and userscripts, and set up a proxy server.
+Tato sekce umožňuje spravovat nastavení HTTPS filtrování, filtry a uživatelské skripty a nastavit proxy server.
 
 ![Filtering *mobile_border](https://cdn.adtidy.org/blog/new/7v5c6filtering.png)
 
@@ -306,32 +313,32 @@ This section allows you to manage HTTPS filtering settings, filters, and userscr
 
 ##### HTTPS filtrování
 
-To block ads and trackers on most websites and in most apps, AdGuard needs to filter their HTTPS traffic. [Read more about HTTPS filtering](/general/https-filtering/what-is-https-filtering)
+K blokování reklam a slídičů na většině webových stránek a ve většině aplikací potřebuje AdGuard filtrovat jejich provoz HTTPS. [Více informací o HTTPS filtrování](/general/https-filtering/what-is-https-filtering)
 
-###### Security certificates
+###### Bezpečnostní certifikáty
 
-To manage encrypted traffic, AdGuard installs its CA certificate on your device. It's safe: the traffic is filtered locally and AdGuard verifies the security of the connection.
+Za účelem správy šifrovaného provozu nainstaluje AdGuard do vašeho zařízení certifikát CA. Je to bezpečné: provoz je filtrován lokálně a AdGuard ověřuje bezpečnost připojení.
 
-On older versions of Android, the certificate is installed automatically. On Android 11 and later, you need to install it manually. [Installation instructions](/adguard-for-android/solving-problems/manual-certificate/)
+Ve starších verzích Androidu se certifikát nainstaluje automaticky. V systému Android 11 a novějších verzích je třeba certifikát nainstalovat ručně. [Pokyny k instalaci](/adguard-for-android/solving-problems/manual-certificate/)
 
-The CA certificate in the user store is enough to filter HTTPS traffic in browsers and some apps. However, there are apps that only trust certificates from the system store. To filter HTTPS traffic there, you need to install AdGuard's CA certificate into the system store. [Instructions](/adguard-for-android/solving-problems/https-certificate-for-rooted/)
+Certifikát CA v uživatelském úložišti stačí k filtrování provozu HTTPS v prohlížečích a některých aplikacích. Existují však aplikace, které důvěřují pouze certifikátům ze systémového úložiště. Chcete-li tam filtrovat provoz HTTPS, musíte do systémového úložiště nainstalovat CA certifikát AdGuardu. [Pokyny](/adguard-for-android/solving-problems/https-certificate-for-rooted/)
 
-###### HTTPS-filtered apps
+###### Filtrované aplikace HTTPS
 
-This section contains the list of apps for which AdGuard filters HTTPS traffic. Please note that the setting can be applied for all apps only if you have CA certificates both in the user store and in the system store.
+Tato sekce obsahuje seznam aplikací, pro které AdGuard filtruje provoz HTTPS. Upozorňujeme, že nastavení lze použít pro všechny aplikace pouze v případě, že máte certifikáty CA v uživatelském úložišti i v systémovém úložišti.
 
-###### HTTPS-filtered websites
+###### Weby s HTTPS filtrováním
 
-This setting allows you to manage websites for which AdGuard should filter HTTPS traffic.
+Toto nastavení umožňuje spravovat weby, pro které má AdGuard filtrovat provoz HTTPS.
 
-HTTPS filtering allows AdGuard to filter the content of requests and responses, but we never collect or store this data. However, to increase security, we [exclude websites that contain potentially sensitive information from HTTPS filtering](/general/https-filtering/what-is-https-filtering/#financial-websites-and-websites-with-sensitive-personal-data).
+Filtrování HTTPS umožňuje AdGuardu filtrovat obsah požadavků a odezev, tato data však nikdy neshromažďujeme ani neukládáme. Pro zvýšení bezpečnosti však z HTTPS filtrování vyřazujeme weby, [které obsahují potenciálně citlivé informace](/general/https-filtering/what-is-https-filtering/#financial-websites-and-websites-with-sensitive-personal-data).
 
-You can also add websites that you consider necessary to exclusions by selecting one of the modes:
+Výběrem jednoho z režimů můžete do výjimek přidat také weby, které považujete za nezbytné:
 
-- Exclude specific websites from HTTPS filtering
-- Filter HTTPS traffic only on the websites added to exclusions
+- Vyloučení konkrétních webových stránek z HTTPS filtrování
+- Filtrování provozu HTTPS pouze na webech přidaných do výjimek
 
-By default, we also do not filter websites with Extended Validation (EV) certificates, such as financial websites. If needed, you can enable the *Filter websites with EV certificates* option.
+Ve výchozím nastavení také nefiltrujeme weby s certifikáty s rozšířeným ověřením (EV), jako jsou například finanční webové stránky. Pokud potřebujete, můžete také povolit možnost *Filtrovat weby s certifikáty EV*.
 
 ##### Proxy
 

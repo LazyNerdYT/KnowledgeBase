@@ -5,40 +5,53 @@ sidebar_position: 1
 
 ## Co je licence AdGuardu
 
-Licence je povolení používat produkt AdGuard v souladu s licenční smlouvou s koncovým uživatelem. Licence AdGuardu existují ve formě licenčních klíčů, aktivačních kódů a produktových karet v uživatelském [AdGuard](../../account/register) účtu.
+A license is a permission to use the AdGuard product, provided in accordance with the [End User License Agreement](https://adguard.com/eula.html). If bound to an email address, AdGuard licenses can be found in the user's [AdGuard account](https://my.adguard.com/).
 
-Některé licence je třeba zakoupit (např. Blokátor reklam AdGuard), některé jsou bezplatné a časově omezené (např. zkušební licence aplikací AdGuard) nebo mají omezenou funkčnost (např. AdGuard pro iOS nebo Rozšíření prohlížeče AdGuard). Zde je seznam všech typů licencí Blokátoru reklam AdGuard.
+## What types of AdGuard licenses exist
 
-1. **Zkušební licence** jsou bezplatné, časově omezené licence s plnou funkčností: AdGuard pro Windows — 14denní zkušební licence, AdGuard pro Mac — 14denní zkušební licence, AdGuard pro Android — 7denní zkušební licence.
-2. **Bezplatné licence** nejsou časově omezené, ale mají omezenou funkčnost: Rozšíření prohlížeče AdGuard, Blokátor obsahu AdGuard, AdGuard pro iOS.
-3. **Předplatné** jsou placené licence, které se automaticky obnovují každý měsíc nebo rok. Lze je také prodloužit ručně. Měsíční předplatné blokátoru reklam AdGuard, roční předplatné blokátoru reklam AdGuard.
-4. **Licence zakoupené od distributorů** a **darované licence** jsou časově omezené a nelze je automaticky obnovit. Lze je také prodloužit ručně: Měsíční licence blokátoru reklam AdGuard, roční licence blokátoru reklam AdGuard.
-5. **Doživotní licence** nejsou časově omezené a mají plnou funkčnost: Doživotní licence blokátoru reklam AdGuard, AdGuard Pro pro iOS.
+On the [purchase page](https://adguard.com/license.html), you can see the following types of licenses:
 
-## Kolik zařízení je možné přidat{#devices}
+- **1-year subscriptions** — these licenses are renewed automatically every year or can be extended manually
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
+- **Lifetime** — these licenses are not time-limited
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
 
-Různé licence lze používat s různým počtem zařízení:
+There are also licenses that the user can purchase from other sources or get for free:
 
-- Osobní: až pro 3 zařízení,
-- Rodinná: až pro 9 zařízení,
-- AdGuard Pro pro iOS: jedno zařízení.
+- **Trial licenses** are free time-limited licenses that allow you to test the full functionality of the product
+    - AdGuard for Windows — 14-day trial
+    - AdGuard for Mac — 14-day trial
+    - AdGuard for Android — 7-day trial
+- **Distributor licenses** and **gifted licenses** can be both time-limited and non-time limited. Licenses with an expiration date can only be renewed manually
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
+- **The AdGuard Pro for iOS license** is purchased and managed through the App Store and can only be used on iOS and iPadOS devices with the same Apple ID
 
-Chcete-li použít svou licenci na zařízení, přihlaste se na něm ke svému [AdGuard účtu](../../account/features). Chcete-li rozšířit limit zařízení, můžete provést [upgrade](../payment-options/#upgrade) licence.
+:::tip
 
-## Co je licenční klíč{#license-key}
+Chcete-li rozšířit limit zařízení, můžete provést [upgrade](../payment-options/#upgrade) licence.
 
-Licenční klíč je jedinečná sekvence znaků, která představuje licenci Blokátoru reklam AdGuard. Automaticky se zaregistruje na e-mail, který jste použili při nákupu licence. Pomocí licenčního klíče můžete:
+:::
 
-- přihlásit se ke svému AdGuard účtu v některých produktech (např. AdGuard pro Windows),
-- [aktivovat si licenci](../activation) v produktu, pokud nemáte AdGuard účet,
-- připojit licenci na AdGuard účet a zrušit její vazbu.
+## How to use the AdGuard license
 
-Při odpojení licence si předem zapište licenční klíč nebo si jej poznamenejte jiným (bezpečným) způsobem. Klíč budete potřebovat k opětovnému připojení licence nebo k jejímu přenosu na jiný účet.
+To use your license on a device, log in to your AdGuard app using the email address associated with the license. If the license hasn't been bound to your email address yet, you can do it in your [AdGuard account](https://my.adguard.com/). To do so, open the *Licenses* tab and click *Bind license*.
 
-## Jak obnovit licenční klíč
+Alternatively, you can enter your [license key](#license-key) in your AdGuard app.
 
-Ve svém [AdGuard účtu](../../account/register) můžete snadno zkontrolovat, které licenční klíče vám patří.
+## License key
 
-Licenční klíč je navázán na váš účet prostřednictvím e-mailové adresy, kterou jste použili k nákupu AdGuardu.
+A license key is a unique string of characters that represents an AdGuard Ad Blocker license. It is automatically registered to the email you used to purchase the license, or is provided to you when you purchase an AdGuard license from a distributor. Pomocí licenčního klíče můžete:
 
-**Upozorňujeme**, že často nestačí pouze zjistit, jaký je váš licenční klíč. Pokud již byl použit v jiném počítači, je nutné jej z tohoto počítače před dalším použitím zrušit prostřednictvím AdGuard účtu.
+- [Activate your license](../activation) in a product, if you don't have an AdGuard account
+- Bind your license to your AdGuard account and unbind it
+
+When you unbind a license, be sure to save the license key first. You'll need the key to rebind your license or transfer it to another account.
+
+### Jak obnovit licenční klíč
+
+If you don't remember the license key, check out your AdGuard account: all licenses bound to your email address are displayed there.
+
+If you've lost the license key purchased from a distributor, please reach out to us at support@adguard.com. Be ready to provide a receipt or other proof of purchase.

@@ -987,7 +987,7 @@ Seznam dostupných možností modifikátoru:
 - `location` zakáže možnost [**Blokovat lokalizační API**](../../stealth-mode#location)
 - `flash` zakáže možnost [**Blokovat Flash**](../../stealth-mode#flash)
 - `java` zakáže možnost [**Blokovat Java**](../../stealth-mode#java)
-- `referrer` zakáže možnost [**Skrýt třetím stranám referenční ID**](../../stealth-mode#miscellaneous)
+- `referrer` disables [**Hide Referer from third parties**](../../stealth-mode#miscellaneous) option
 - `useragent` zakáže možnost [**Skrýt agenta (identifikaci) Vašeho prohlížeče**](../../stealth-mode#useragent)
 - `ip` zakáže možnost [**Skrýt IP adresu**](../../stealth-mode#ip)
 - `xclientdata` zakáže možnost [**Odstranit X-Client-Data hlavičku z požadavků HTTP**](../../stealth-mode#xclientdata)

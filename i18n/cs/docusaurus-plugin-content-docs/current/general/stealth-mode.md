@@ -31,7 +31,7 @@ Pokud tuto možnost povolíte, AdGuard odstraní z adres URL parametry sledován
 
 ### Metody sledování {#tracking-methods}
 
-### Automatická destrukce cookies třetích stran {#3p-cookie}
+### Self-destruction of third-party cookies {#3p-cookie}
 
 Webové stránky používají soubory cookies k ukládání vašich informací a preferencí, jako je zvolený jazyk, vaše poloha nebo seznam položek v nákupním košíku. Když se vrátíte na webovou stránku, váš prohlížeč odešle zpět soubory cookies patřící dané webové stránce, což mu umožní "zapamatovat si" vaše údaje.
 
@@ -39,9 +39,21 @@ Soubory cookies třetích stran jsou ty, které jsou implementovány jinou webov
 
 Nastavte dobu (v minutách), po jejímž uplynutí budou všechny soubory cookies třetích stran zničeny. Pro úplné zablokování nastavte časovač na 0.
 
-### Automatická destrukce vlastních cookies {#1p-cookie}
+:::caution
 
-Tuto možnost nedoporučujeme povolovat, protože může vážně narušit práci některých webů. Nastavte dobu (v minutách), po jejímž uplynutí budou všechny soubory vlastních cookies zničeny. Pro úplné zablokování nastavte časovač na 0.
+This setting deletes all third-party cookies, including the information of your logins through social networks or other third-party services. You may have to periodically re-log in to some websites and face other cookie-related issues. To block only tracking cookies, use [*AdGuard Tracking Protection filter*](/general/ad-filtering/filter-policy/#tracking-protection-filter).
+
+:::
+
+### Self-destruction of first-party cookies {#1p-cookie}
+
+Nastavte dobu (v minutách), po jejímž uplynutí budou všechny soubory vlastních cookies zničeny. Pro úplné zablokování nastavte časovač na 0.
+
+:::caution
+
+We do not recommend enabling this option as it may severely interfere with the work of certain websites.
+
+:::
 
 ### Zakázat mezipaměť požadavků třetích stran {#3p-cache}
 
@@ -75,15 +87,15 @@ Některé webové stránky a webové služby stále používají starou technolo
 
 ## Různé {#miscellaneous}
 
-### Skrýt třetím stranám referenční ID {#referrer}
+### Hide Referer from third parties {#referer}
 
-Referenční ID je hlavička HTTP používaná v požadavcích prohlížeče na server. Obsahuje adresu URL zdroje požadavku. Při přechodu z jedné stránky na druhou uloží referenční ID adresu URL původní stránky. Na serveru, který je hostitelem cílové webové stránky, je často instalován software, který analyzuje referenční ID a získává z něj různé informace. Povolením možnosti *Skrýt třetím stranám referenční ID* skryjete aktuální web před weby třetích stran změnou záhlaví HTTP.
+Referer is an HTTP header used in browser-to-server requests. Obsahuje adresu URL zdroje požadavku. When you navigate from one page to another, Referer saves the URL of the initial page. The server that hosts the destination web page often has software that parses Referer and extracts various pieces of information from it. Enabling the *Hide Referer from third-parties* option hides the current website from third-party sites by altering the HTTP header.
 
-Můžete také nastavit libovolnou hodnotu pro referenční ID zadáním do pole *Vlastní referenční ID*. Chcete-li použít výchozí referenční ID, ponechte pole prázdné.
+You can also set an arbitrary value for Referer by entering it into the *Custom Referer* field. To use default Referer, leave the field blank.
 
-Všimněte si, že aby bylo možné filtrovat provoz, aplikace AdGuard "zachycují" požadavky prohlížeče na server. Požadavky na reklamní, sledovací a phishingové servery mohou být před odesláním na server změněny nebo zcela zablokovány. Totéž platí pro možnost *Skrýt třetím stranám referenční ID*: AdGuard zachycuje požadavky HTTP(S) zejména za účelem odstranění nebo změny hlavičky referenčního ID, pokud je tato možnost povolena. K tomu však dochází až poté, co tyto požadavky "opustí" prohlížeč. To znamená, že pokud sledujete referenční ID v prohlížeči (například pomocí vývojářských nástrojů Chrome), uvidíte původní referenční ID, protože požadavek ještě nedorazil do AdGuardu. Můžete použít software jako [Fiddler](https://www.telerik.com/fiddler), abyste se ujistili, že referenční ID bude změněno správně.
+Všimněte si, že aby bylo možné filtrovat provoz, aplikace AdGuard "zachycují" požadavky prohlížeče na server. Požadavky na reklamní, sledovací a phishingové servery mohou být před odesláním na server změněny nebo zcela zablokovány. Same goes for the *Hide Referer from third parties* option: AdGuard intercepts HTTP(S) requests, in particular to remove or change the Referer header if this option is enabled. K tomu však dochází až poté, co tyto požadavky "opustí" prohlížeč. This means that if you monitor Referer inside the browser (for example, with the help of Chrome's Developer Tools), you will see the original Referer because the request hasn't reached AdGuard yet. You can use software like [Fiddler](https://www.telerik.com/fiddler) to make sure that Referer gets altered correctly.
 
-Naopak, vzhledem k povaze všech rozšíření prohlížeče funguje Rozšíření prohlížeče AdGuard "uvnitř" prohlížeče. Hned na místě změní referenční ID, takže nástroje pro vývojáře budou zobrazovat požadované referenční ID pro vaše požadavky.
+Naopak, vzhledem k povaze všech rozšíření prohlížeče funguje Rozšíření prohlížeče AdGuard "uvnitř" prohlížeče. It will alter the Referer right then and there, so Developer Tools will show the desired Referer for your requests.
 
 ### Skrýt User-Agent {#useragent}
 

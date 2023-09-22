@@ -1,5 +1,5 @@
 ---
-title: Jak zrušit předplatné/vrátit peníze
+title: How to cancel or refund
 sidebar_position: 5
 ---
 
@@ -7,21 +7,25 @@ sidebar_position: 5
 
 Předplatné lze zrušit ve vašem AdGuard účtu. Pro zrušení předplatného:
 
- 1. Přejděte do [AdGuard účtu](https://my.adguard.com/)
- 2. Přejděte na kartu **Licence**
- 3. Klikněte na **Zrušit předplatné** pod předplatným, které již nepotřebujete ![Cancel *mobile](https://cdn.adtidy.org/content/kb/ad_blocker/general/newaccount-cancel-sub.png)
+ 1. Go to your [AdGuard account](https://my.adguard.com/).
+ 1. Select *Licenses*.
+ 1. Click *Cancel subscription* below the subscription you no longer need. ![Zrušit](https://cdn.adtidy.org/content/kb/ad_blocker/general/newaccount-cancel-sub.png)
 
  Zrušené předplatné bude platné do data vypršení jeho platnosti.
 
+:::note
+
 Předplatné zakoupené v App Store lze spravovat v účtu App Store nebo v nastavení zařízení.
+
+:::
 
 ## Jak získat refundaci
 
-V souladu s našimi [Podmínkami prodeje](https://adguard.com/terms-of-sale.html) můžete získat 100% náhradu za licenční klíč AdGuardu, který jste zakoupili na https://adguard.com. Chcete-li získat peníze zpět, kontaktujte náš tým podpory na adrese **support@adguard.com** a uveďte způsob platby, který jste použili.
+V souladu s našimi [Podmínkami prodeje](https://adguard.com/terms-of-sale.html) můžete získat 100% náhradu za licenční klíč AdGuardu, který jste zakoupili na https://adguard.com. To get a refund, contact our support team at *support@adguard.com* and specify the payment option you've used.
 
 Refundace může být zamítnuta, pokud:
 
-- byla licence zakoupena před více než 60 dny,
-- byla licence zakoupena od distributora,
-- byla licence zakoupena v App Store,
-- jste požádali o částečné vrácení peněz za upgrade nebo obnovení licenčního klíče.
+- A license was purchased more than 60 days ago
+- A license was purchased from a distributor
+- A license was purchased from the App Store
+- You applied for a partial refund for a license key upgrade or renewal

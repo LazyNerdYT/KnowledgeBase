@@ -5,40 +5,53 @@ sidebar_position: 1
 
 ## Что такое лицензия AdGuard
 
-Лицензия — это разрешение на использование продукта AdGuard, предоставляемое в соответствии с Лицензионным соглашением. Лицензии AdGuard существуют в виде лицензионных ключей, кодов активации и карточек продуктов в пользовательской [учётной записи AdGuard](../../account/register).
+A license is a permission to use the AdGuard product, provided in accordance with the [End User License Agreement](https://adguard.com/eula.html). If bound to an email address, AdGuard licenses can be found in the user's [AdGuard account](https://my.adguard.com/).
 
-Некоторые лицензии необходимо приобрести (например, Персональную лицензию на Блокировщик рекламы AdGuard), некоторые из них бесплатны и ограничены по сроку действия (например, пробные лицензии приложений AdGuard) или имеют ограниченную функциональность (например, AdGuard для iOS или Браузерное расширение AdGuard). Вот список всех типов лицензий Блокировщика рекламы AdGuard.
+## What types of AdGuard licenses exist
 
-1. **Пробные лицензии** — это бесплатные ограниченные по времени лицензии с полной функциональностью: AdGuard для Windows — пробная версия на 14 дней, AdGuard для Mac — пробная версия на 14 дней, AdGuard для Android — пробная версия на 7 дней.
-2. **Бесплатные лицензии** не ограничены по времени, но имеют ограниченный функционал: Браузерное расширение AdGuard AdGuard Content Blocker, AdGuard для iOS.
-3. **Подписки** — это платные лицензии, которые автоматически продлеваются каждый месяц или каждый год. Их также можно продлить вручную. Ежемесячная подписка на Блокировщик рекламы AdGuard, Годовая подписка на Блокировщик рекламы AdGuard.
-4. **Лицензии, приобретённые у дистрибьюторов** и **купленные в подарок**, ограничены по времени и не могут быть продлены автоматически. Но их можно продлить вручную: Месячная лицензия на Блокировщик AdGuard, Годовая лицензия на Блокировщик AdGuard.
-5. **Вечные лицензии** не ограничены по времени и имеют полную функциональность: Вечная лицензия на Блокировщик AdGuard, AdGuard Pro для iOS.
+On the [purchase page](https://adguard.com/license.html), you can see the following types of licenses:
 
-## Сколько устройств можно добавить{#devices}
+- **1-year subscriptions** — these licenses are renewed automatically every year or can be extended manually
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
+- **Lifetime** — these licenses are not time-limited
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
 
-Разные лицензии можно использовать с разным количеством устройств:
+There are also licenses that the user can purchase from other sources or get for free:
 
-- Персональная: до 3 устройств,
-- Семейная: до 9 устройств,
-- AdGuard Pro для iOS: одно устройство.
+- **Trial licenses** are free time-limited licenses that allow you to test the full functionality of the product
+    - AdGuard for Windows — 14-day trial
+    - AdGuard for Mac — 14-day trial
+    - AdGuard for Android — 7-day trial
+- **Distributor licenses** and **gifted licenses** can be both time-limited and non-time limited. Licenses with an expiration date can only be renewed manually
+    - Personal — up to 3 devices
+    - Family — up to 9 devices
+- **The AdGuard Pro for iOS license** is purchased and managed through the App Store and can only be used on iOS and iPadOS devices with the same Apple ID
 
-Чтобы использовать лицензию на устройстве, войдите на нём в свой [аккаунт AdGuard](../../account/features). Чтобы увеличить лимит устройств, вы можете [улучшить](../payment-options/#upgrade) лицензию.
+:::tip
 
-## Что такое лицензионный ключ{#license-key}
+Чтобы увеличить лимит устройств, вы можете [улучшить](../payment-options/#upgrade) лицензию.
 
-Лицензионный ключ — это уникальная последовательность символов, представляющая лицензию Блокировщика рекламы AdGuard. Он автоматически регистрируется на адрес электронной почты, который вы использовали для покупки лицензии. С помощью лицензионного ключа вы можете:
+:::
 
-- войти в свою учётную запись AdGuard в некоторых продуктах (например, AdGuard для Windows),
-- [активировать лицензию](../activation) в продукте, если у вас нет аккаунта AdGuard,
-- привязать лицензию к аккаунту AdGuard и отвязать её.
+## How to use the AdGuard license
 
-При отвязывании лицензии убедитесь, что вы предварительно записали лицензионный ключ или сохранили его каким-либо другим (безопасным) способом. Ключ понадобится вам для повторной привязки лицензии или её переноса на другой аккаунт.
+To use your license on a device, log in to your AdGuard app using the email address associated with the license. If the license hasn't been bound to your email address yet, you can do it in your [AdGuard account](https://my.adguard.com/). To do so, open the *Licenses* tab and click *Bind license*.
 
-## Как восстановить лицензионный ключ
+Alternatively, you can enter your [license key](#license-key) in your AdGuard app.
 
-В [личном кабинете AdGuard](../../account/register) вы можете легко проверить, какие лицензионные ключи принадлежат вам.
+## License key
 
-Лицензионный ключ привязан к вашему аккаунту через адрес электронной почты, который вы использовали для покупки AdGuard.
+A license key is a unique string of characters that represents an AdGuard Ad Blocker license. It is automatically registered to the email you used to purchase the license, or is provided to you when you purchase an AdGuard license from a distributor. С помощью лицензионного ключа вы можете:
 
-**Обратите внимание,** что часто бывает недостаточно просто узнать, какой у вас лицензионный ключ. Если он уже использовался на другом компьютере, необходимо отвязать его от этого компьютера через личный кабинет AdGuard, прежде чем использовать его снова.
+- [Activate your license](../activation) in a product, if you don't have an AdGuard account
+- Bind your license to your AdGuard account and unbind it
+
+When you unbind a license, be sure to save the license key first. You'll need the key to rebind your license or transfer it to another account.
+
+### Как восстановить лицензионный ключ
+
+If you don't remember the license key, check out your AdGuard account: all licenses bound to your email address are displayed there.
+
+If you've lost the license key purchased from a distributor, please reach out to us at support@adguard.com. Be ready to provide a receipt or other proof of purchase.

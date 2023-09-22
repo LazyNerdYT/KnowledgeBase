@@ -71,6 +71,13 @@ Temel koruma, çoğu sitedeki reklamları etkili bir şekilde engeller. Daha öz
 
     e. *Kendini yok eden üçüncü taraf çerezler*. Bu ayar, üçüncü taraf çerezlerinin kullanım süresini 180 dk ile sınırlar
 
+    :::caution
+
+    This setting deletes all third-party cookies, including the information of your logins through social networks or other third-party services. You may have to periodically re-log in to some websites and face other cookie-related issues. To block only tracking cookies, use the *Standard* protection level.
+
+
+:::
+
     f. *X-Client-Data başlığını kaldırın*
 
  3. **En yüksek**

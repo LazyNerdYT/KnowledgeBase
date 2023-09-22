@@ -987,7 +987,7 @@ $stealth [= opt1 [| opt2 [| opt3 [...]]]]
 - `location` отключает опцию [**Блокировать Location API**](../../stealth-mode#location)
 - `flash` отключает опцию [**Блокировать Flash**](../../stealth-mode#flash)
 - `java` отключает опцию [**Блокировать Java**](../../stealth-mode#java)
-- `Referrer` отключает опцию[**Скрыть Referrer от третьих лиц**](../../stealth-mode#miscellaneous)
+- `referrer` disables [**Hide Referer from third parties**](../../stealth-mode#miscellaneous) option
 - `useragent` отключает опцию [**Скрыть User-Agent**](../../stealth-mode#useragent)
 - `ip` отключает опцию [**Скрыть IP-адрес**](../../stealth-mode#ip)
 - `xclientdata` отключает опцию [**Убрать заголовок X-Client-Data из HTTP-запросов**](../../stealth-mode#xclientdata)
